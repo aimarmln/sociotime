@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #3c0505;
+  color: white;
+}
+
+.user-profile {
+  margin-left: 24px;
+}
+
+.user-profile h1 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.user-profile p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.edit-profile {
+  padding: 28px 0;
+}
+
+/* main content */
+.custom-header {
+  background-color: none;
+  border: none;
+  border-bottom: 1.5px solid white;
+  text-align: center;
+  height: 36px;
+  margin-bottom: 24px;
+}
+
+.profile-content {
+  margin-top: 88px;
+  padding: 0 24px;
+  max-width: 620px;
+  min-width: 480px;
+}
+
+.card {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+.card-header {
+  font-weight: bold;
+  height: 48px;
+}
+
+.dropdown.btn {
+  background-color: none;
+}
+
+.dropdown-redvelvet {
+  background-color: #220303;
+}
+
+.profile-title-pct {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-border {
+  border-left: 2px solid white;
+  padding: 10px;
+  margin-left: 25px;
+}
+
+.btn-comment {
+  font-size: 15px;
+}
+
+.button-white {
+  display: flex;
+  padding: 9px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #ffff;
+  color: #ffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.button-white:hover {
+  color: black;
+  background: #ffff;
+  transition: all 0.2s;
+}
+
+.post-content {
+  margin-bottom: 5%;
+  padding: 0 24px;
+  max-width: 620px;
+  min-width: 480px;
+  font-size: 15px;
+}
+
+.dropdown .btn {
+  background-color: none;
+}
+
+.dropdown .btn i {
+  font-size: 20px;
+}
+
+.dropdown-redvelvet {
+  background-color: #220303;
+  font-size: 15px;
+}
+
+.profile-header-card {
+  height: 36px;
+}
+
+.post-border {
+  border-left: 2px solid white;
+  padding: 10px;
+  margin-left: 18px;
+}
+
+.btn-comment i {
+  font-size: 20px;
+}
+
+.profile-card img {
+  margin-right: 15px;
+}
+
+.profile-card p {
+  font-weight: bold;
+  margin: 0;
+  height: 36px;
+  line-height: 36px;
+}
+
+.profile-card p:nth-child(3) {
+  font-weight: normal;
+  padding-left: 15px;
+}
+
+.footer {
+  height: 36px;
+}
+
+hr {
+  color: white;
+  margin: 12px 0;
+  padding: 0;
+}
+
+/* main content */

@@ -1,0 +1,84 @@
+.input-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: white;
+  padding: 0 5px;
+  pointer-events: none;
+}
+
+.form-floating input {
+  border-radius: 10px;
+  background-color: #3b0505;
+  font-size: 15px;
+  color: white;
+}
+
+.form-floating label {
+  color: white;
+}
+
+.form-floating input:focus {
+  background-color: #3b0505;
+  color: white;
+}
+
+.form-floating > label::after {
+  background-color: #3b0505 !important;
+  color: #fff !important;
+}
+
+.form-floating label {
+  color: #fff !important;
+}
+
+.tregis {
+  color: #fff;
+}
+.tregis a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+.button-white {
+  display: flex;
+  width: 100%;
+  height: 46px;
+  padding: 9px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #ffff;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.button-white:hover {
+  color: black;
+  background: #ffff;
+  transition: all 0.2s;
+}
+
+.profile-title-pct {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #3c0505;
+}
+
+/* main content */
+.post-content {
+  margin-top: 88px;
+  margin-bottom: 5%;
+  padding: 0 24px;
+  max-width: 620px;
+  min-width: 480px;
+}
+
+.card {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.dropdown.btn {
+  background-color: none;
+}
+
+.post-border {
+  border-left: 2px solid white;
+  padding: 10px;
+  margin-left: 18px;
+}
+
+.btn-comment {
+  font-size: 15px;
+}
+
+.search-form {
+  position: relative;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.search-form .search-input {
+  width: 100%;
+  padding: 12px 16px;
+  height: 60px;
+  border: 1.5px solid white;
+  background-color: #2c0404;
+  color: white;
+  border-radius: 20px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: white;
+  cursor: pointer;
+}
+
+.src-result {
+  text-decoration: none;
+  color: white;
+  margin-top: 24px;
+  font-size: 15px;
+}
+
+.src-result p {
+  margin: 0;
+}
+
+.container .profile-pct {
+  width: 48px;
+  height: 48px;
+}
+
+.user-card {
+  display: flex;
+  padding: 16px 0;
+  border-bottom: solid 1px white;
+}
+
+.user-info p:nth-child(1) {
+  font-weight: bold;
+}
